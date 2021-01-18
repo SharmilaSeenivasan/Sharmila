@@ -1,16 +1,12 @@
 package com.FantasySpin.implementation;
 
-import java.util.HashMap;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.remote.RemoteWebElement;
-
 import com.FantasySpin.repository.Config;
 import com.FantasySpin.repository.Object_Repository;
 import com.FantasySpin.utility.Read;
 import com.FantasySpin.utility.Reusable_Function;
 
-import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 
 public class LoginPage extends LaunchApplication
@@ -89,9 +85,30 @@ public class LoginPage extends LaunchApplication
 
 		Thread.sleep(6000);
 		
+		MobileElement DailySpin = driver.findElement(By.id("FSDLYspinbtn"));
 		MobileElement NewDeviceUsePopUp = driver.findElement(By.id("FSNDFokbtn"));
 		
-		if(NewDeviceUsePopUp.isDisplayed() == true)
+		if(DailySpin.isDisplayed() == true)
+		{
+			rf.clickButton(driver, Object_Repository.DailySpin);
+			Thread.sleep(3000);
+			
+			rf.clickButton(driver, Object_Repository.NewDeviceOKbutton);
+			Thread.sleep(1000);
+			
+			rf.sendValue(driver, Object_Repository.CountryUSA, Config.Country);
+			Thread.sleep(1000);
+
+			rf.clickButton(driver, Object_Repository.PhoneNumber);
+			rf.sendValue(driver, Object_Repository.PhoneNumber, Config.PhoneNumber);
+			Thread.sleep(1000);
+			
+			rf.clickButton(driver, Object_Repository.TextMe);
+
+			
+		}
+		
+		else if(NewDeviceUsePopUp.isDisplayed() == true)
 		{
 			rf.clickButton(driver, Object_Repository.NewDeviceOKbutton);
 			Thread.sleep(1000);
@@ -112,7 +129,9 @@ public class LoginPage extends LaunchApplication
 */
 //			rf.clickButton(driver, Object_Repository.ClearCountry);
  
-			
+			MobileElement clear = driver.findElement(By.name("Clear text"));
+			clear.click();
+
 			rf.sendValue(driver, Object_Repository.CountryUSA, Config.Country);
 			Thread.sleep(1000);
 			

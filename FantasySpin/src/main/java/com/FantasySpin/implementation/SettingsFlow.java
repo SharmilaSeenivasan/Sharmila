@@ -23,6 +23,10 @@ public class SettingsFlow extends LoginPage
 	{
 		rf.clickButton(driver, Object_Repository.HowtoPlay);
 		Thread.sleep(4000);
+		
+		rf.clickButton(driver, Object_Repository.FSDevBackButton);
+		Thread.sleep(2000);
+
 	}
 	
 	

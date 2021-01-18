@@ -45,7 +45,7 @@ public class Settings extends Base
 		SettingsFlow.HowtoPlay();
 	}
 	
-	@Test(priority=5)
+/*	@Test(priority=5)
 	public void Scorings() throws Exception
 	{
 		SettingsFlow.Scoring();
@@ -68,7 +68,7 @@ public class Settings extends Base
 	{
 		SettingsFlow.Feedback();
 	}
-
+*/
 
 
 }

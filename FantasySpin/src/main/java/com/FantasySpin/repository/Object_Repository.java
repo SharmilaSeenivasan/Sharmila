@@ -21,9 +21,11 @@ public class Object_Repository
 	
 //HowtoPlay
 	public static String HowtoPlayonFirstScreen = "id>FShowtoplay";
-	public static String RightArrow = "id>arrowR";
-	public static String LeftArrow = "id>arrowL";
+//	public static String RightArrow = "id>arrowR";
+//	public static String LeftArrow = "id>arrowL";
 	
+	public static String RightArrow = "xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton";
+	public static String LeftArrow = "xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton";
 
 	
 	public static String LoginIcon="xpath>//XCUIElementTypeStaticText[@name=\"LOG IN\"]";
@@ -33,6 +35,8 @@ public class Object_Repository
 
 	public static String Login = "id>FSloginbtn";
 
+	public static String DailySpin = "id>FSDLYspinbtn";
+	
 	public static String NewDeviceOKbutton = "id>FSNDFokbtn";
 	public static String Country = "id>FSEPNCNTRYtxt";
 	public static String ClearCountry = "xpath>//XCUIElementTypeButton[@name=\"Clear text\"])[1]";
@@ -51,7 +55,7 @@ public class Object_Repository
 //Spin Your Lineups
 	
 	public static String SpinYourLineups="id>FSHOMEspinLineupsbtn";
-	public static String CloseInvite ="xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[1]";
+	public static String CloseInvite ="id>FSINVFRNDSclosebtn";
 	
 	public static String Baseball="xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]";
 	public static String BasketBall="xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]";
@@ -97,6 +101,8 @@ public class Object_Repository
 	public static String LegalSupport = "id>FSSETlglsup";
 	public static String Feedback = "id>FSSETfdbk";
 	public static String CloseSettings = "id>FSSETclosebtn";
+	
+	public static String FSDevBackButton = "xpath>//XCUIElementTypeButton[@name=\"Show Toolbar\"]";
 	
 	
 //Link Accounts
