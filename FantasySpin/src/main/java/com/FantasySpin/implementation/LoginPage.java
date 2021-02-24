@@ -77,6 +77,11 @@ public class LoginPage extends LaunchApplication
 		rf.sendValue(driver, Object_Repository.Password, Config.Password);
 		Thread.sleep(2000);
 		
+		rf.clickButton(driver, Object_Repository.Login);
+
+		Thread.sleep(6000);
+
+		
 	}
 	
 	public static void login() throws Exception

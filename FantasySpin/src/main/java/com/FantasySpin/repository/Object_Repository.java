@@ -51,32 +51,44 @@ public class Object_Repository
 	public static String EnterOTP = "id>FSEYCtapheretxt";
 
 			
+//Main Screen
+	
+	public static String TokensIcon="id>FSHOMETKNBALicon";
+	public static String ChipsIcon="id>FSHOMECHIPBALicon";
+	public static String Notifications="id>FSHOMENotifyicon";
+	public static String Settings="id>FSHOMEsettingsicon";
 
+	public static String UserProfile="id>FSHOMEuserprofilebtn";
+	public static String SpinYourLineups="id>FSHOMEspinLineupsbtn";
+	public static String MyTournamentsEntered="id>FSHOMEmytourneybtn";
+	public static String GetfreeShips="id>FSHOMEgetfreechipsbtn";
+	public static String FriendsCrews="id>FSHOMEFandCbtn";
+	public static String RedeemTokens="id>FSHOMEredeemtknbtn";
+	public static String LeaderBoard="id>FSHOMledrbrdbtn";
+	public static String Career="id>FSHOMEcareerbtn";
+	public static String Partners="id>FSHOMEpartnerbtn";
+
+	
+	
 //Spin Your Lineups
 	
-	public static String SpinYourLineups="id>FSHOMEspinLineupsbtn";
 	public static String CloseInvite ="id>FSINVFRNDSclosebtn";
-	
-	public static String Baseball="xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]";
-	public static String BasketBall="xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]";
-//	public static String FootBall="xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[3]";
-	public static String hockey="xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[4]";
+	public static String InviteFriends ="id>FSINVFRNDSbtn";
 
-//	public static String FootBall = "xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]";
-//	public static String FootBall = "xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]";
-	
-//	public static String FootBall = "xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]";
+	public static String Hockey="id>FSSYLNHLhockeybtn";
+	public static String BasketBall="id>FSSYLNBAbasketballbtn";
+	public static String FootBall="id>FSSYLNFLfootballbtn";
+	public static String Baseball="id>FSSYLMLBbaseballbtn";
 
-	public static String FootBall ="xpath>//XCUIElementTypeStaticText[@name=\"NFL Football\"]";
 	
 	public static String ClosePopup="xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton";
 	
-	public static String TokenTourneys="xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]";
-	public static String TouneysOnly="xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]";
-	public static String TokenTourneysOnly="xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[3]";
+	public static String ChipTokenTourneys="id>FSTTChipTokenTourneys";
+	public static String ChipTourneysOnly="id>FSTTChipTourneysOnly";
+	public static String TokenTourneysOnly="id>FSTTTokenTourneysOnly";
 
 	
-	public static String StandardOneK = "xpath>//XCUIElementTypeButton[@name=\"roundedNavyBlue\"]";
+	public static String StandardOneK = "id>FSCTstandard1K";
 	
 	public static String SpinButton = "xpath>//XCUIElementTypeButton[@name=\"spinButton\"]";
 	
@@ -146,7 +158,6 @@ public class Object_Repository
 	
 	
 //SignOut
-	public static String Settings="id>FSHOMEsettingsicon";
 	public static String LinkAccount = "xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]";
 	public static String Unlink="id>SIGN OUT";	
 				

@@ -5,10 +5,10 @@
     <classes>
       <class name="com.FantasySpin.test.Login">
         <methods>
+          <include name="Spin"/>
           <include name="tearDown"/>
           <include name="beforeMethod"/>
           <include name="setExtent"/>
-          <include name="LoginScreen"/>
           <include name="teardown"/>
           <include name="endReport"/>
         </methods>

@@ -23,8 +23,8 @@ public class LaunchApplication
 
 		 cap.setCapability("deviceName", "iPhone 11");
 		 cap.setCapability("platformName", "iOS");
-		 cap.setCapability("platformVersion", "13.7");
-	//	 cap.setCapability("udid", "780DC199-524D-42ED-AFC7-9FD3690D836F");
+		 cap.setCapability("platformVersion", "14.4");
+		 cap.setCapability("udid", "BE3D3E17-B4CB-45F0-8A41-8D6CBED4F6DF");
 	//	 cap.setCapability("appPackage", "com.reimbursify.Reimbursify");
 		 cap.setCapability("bundleId", "com.footballnation.fantasyspin.debug");
 	//	 cap.setCapability("app", "/Users/apple/Downloads/FantasySpin 2.app");

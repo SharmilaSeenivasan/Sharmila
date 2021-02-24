@@ -1,62 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2571632" started-at="2021-01-13T11:59:40Z" finished-at="2021-01-13T12:42:31Z">
+  <suite name="Default suite" duration-ms="305466" started-at="2021-02-24T11:16:08Z" finished-at="2021-02-24T11:21:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2571632" started-at="2021-01-13T11:59:40Z" finished-at="2021-01-13T12:42:31Z">
-      <class name="com.FantasySpin.test.HowToPlayFrontScreen">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.FantasySpin.test.HowToPlayFrontScreen@5d11346a]" name="setExtent" is-config="true" duration-ms="324" started-at="2021-01-13T11:59:39Z" finished-at="2021-01-13T11:59:40Z">
+    <test name="Default test" duration-ms="305466" started-at="2021-02-24T11:16:08Z" finished-at="2021-02-24T11:21:13Z">
+      <class name="com.FantasySpin.test.Login">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.FantasySpin.test.Login@5d11346a]" name="setExtent" is-config="true" duration-ms="1902" started-at="2021-02-24T11:16:06Z" finished-at="2021-02-24T11:16:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.FantasySpin.test.HowToPlayFrontScreen@5d11346a]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2021-01-13T11:59:40Z" finished-at="2021-01-13T11:59:40Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.FantasySpin.test.Login@5d11346a]" name="beforeMethod" is-config="true" duration-ms="25" started-at="2021-02-24T11:16:08Z" finished-at="2021-02-24T11:16:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.FantasySpin.test.HowToPlayFrontScreen.LaunchApp() throws java.lang.Exception]]>
+                <![CDATA[public void com.FantasySpin.test.Login.LaunchApp() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:com.FantasySpin.test.HowToPlayFrontScreen@5d11346a]" name="LaunchApp" duration-ms="123367" started-at="2021-01-13T11:59:40Z" finished-at="2021-01-13T12:01:43Z">
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:com.FantasySpin.test.Login@5d11346a]" name="LaunchApp" duration-ms="45089" started-at="2021-02-24T11:16:08Z" finished-at="2021-02-24T11:16:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApp -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.FantasySpin.test.HowToPlayFrontScreen@5d11346a]" name="tearDown" is-config="true" duration-ms="550" started-at="2021-01-13T12:01:43Z" finished-at="2021-01-13T12:01:44Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.FantasySpin.test.Login@5d11346a]" name="tearDown" is-config="true" duration-ms="536" started-at="2021-02-24T11:16:53Z" finished-at="2021-02-24T11:16:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LaunchApp status=SUCCESS method=HowToPlayFrontScreen.LaunchApp()[pri:0, instance:com.FantasySpin.test.HowToPlayFrontScreen@5d11346a] output={null}]]]>
+                <![CDATA[[TestResult name=LaunchApp status=SUCCESS method=Login.LaunchApp()[pri:0, instance:com.FantasySpin.test.Login@5d11346a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.FantasySpin.test.HowToPlayFrontScreen@5d11346a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-01-13T12:01:44Z" finished-at="2021-01-13T12:01:44Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.FantasySpin.test.Login@5d11346a]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-02-24T11:16:53Z" finished-at="2021-02-24T11:16:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.FantasySpin.test.HowToPlayFrontScreen.HowToPlay() throws java.lang.Exception]]>
+                <![CDATA[public void com.FantasySpin.test.Login.ValidCredentials() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="HowToPlay()[pri:1, instance:com.FantasySpin.test.HowToPlayFrontScreen@5d11346a]" name="HowToPlay" duration-ms="2447627" started-at="2021-01-13T12:01:44Z" finished-at="2021-01-13T12:42:31Z">
+        <test-method status="PASS" signature="ValidCredentials()[pri:2, instance:com.FantasySpin.test.Login@5d11346a]" name="ValidCredentials" duration-ms="20178" started-at="2021-02-24T11:16:53Z" finished-at="2021-02-24T11:17:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HowToPlay -->
-        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.FantasySpin.test.HowToPlayFrontScreen@5d11346a]" name="tearDown" is-config="true" duration-ms="14" started-at="2021-01-13T12:42:31Z" finished-at="2021-01-13T12:42:31Z">
+        </test-method> <!-- ValidCredentials -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.FantasySpin.test.Login@5d11346a]" name="tearDown" is-config="true" duration-ms="1068" started-at="2021-02-24T11:17:13Z" finished-at="2021-02-24T11:17:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=HowToPlay status=SUCCESS method=HowToPlayFrontScreen.HowToPlay()[pri:1, instance:com.FantasySpin.test.HowToPlayFrontScreen@5d11346a] output={null}]]]>
+                <![CDATA[[TestResult name=ValidCredentials status=SUCCESS method=Login.ValidCredentials()[pri:2, instance:com.FantasySpin.test.Login@5d11346a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.FantasySpin.test.Login@5d11346a]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2021-02-24T11:17:14Z" finished-at="2021-02-24T11:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FantasySpin.test.Login.Spin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Spin()[pri:4, instance:com.FantasySpin.test.Login@5d11346a]" name="Spin" duration-ms="238303" started-at="2021-02-24T11:17:14Z" finished-at="2021-02-24T11:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Spin -->
+        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.FantasySpin.test.Login@5d11346a]" name="tearDown" is-config="true" duration-ms="137" started-at="2021-02-24T11:21:13Z" finished-at="2021-02-24T11:21:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Spin status=SUCCESS method=Login.Spin()[pri:4, instance:com.FantasySpin.test.Login@5d11346a] output={null}]]]>
               </value>
             </param>
           </params>
@@ -66,16 +92,16 @@
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'Dharuns-MacBook-Pro.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
 Driver info: io.appium.java_client.ios.IOSDriver
-Capabilities {browserName: , bundleId: com.footballnation.fantasys..., databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 13.7, takesScreenshot: true, udid: 780DC199-524D-42ED-AFC7-9FD..., webStorageEnabled: false}
-Session ID: ebba3d79-8ed4-42e0-8b4f-917e50f84710]]>
+Capabilities {browserName: , bundleId: com.footballnation.fantasys..., databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 14.4, takesScreenshot: true, udid: BE3D3E17-B4CB-45F0-8A41-8D6..., webStorageEnabled: false}
+Session ID: b965447c-2d49-41bb-9b94-bc825dff741e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'Dharuns-MacBook-Pro.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
 Driver info: io.appium.java_client.ios.IOSDriver
-Capabilities {browserName: , bundleId: com.footballnation.fantasys..., databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 13.7, takesScreenshot: true, udid: 780DC199-524D-42ED-AFC7-9FD..., webStorageEnabled: false}
-Session ID: ebba3d79-8ed4-42e0-8b4f-917e50f84710
+Capabilities {browserName: , bundleId: com.footballnation.fantasys..., databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 14.4, takesScreenshot: true, udid: BE3D3E17-B4CB-45F0-8A41-8D6..., webStorageEnabled: false}
+Session ID: b965447c-2d49-41bb-9b94-bc825dff741e
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -126,23 +152,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="teardown()[pri:0, instance:com.FantasySpin.test.HowToPlayFrontScreen@5d11346a]" name="teardown" is-config="true" duration-ms="23" started-at="2021-01-13T12:42:31Z" finished-at="2021-01-13T12:42:31Z">
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:com.FantasySpin.test.Login@5d11346a]" name="teardown" is-config="true" duration-ms="31" started-at="2021-02-24T11:21:13Z" finished-at="2021-02-24T11:21:13Z">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[A session is either terminated or not started
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'Dharuns-MacBook-Pro.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
 Driver info: io.appium.java_client.ios.IOSDriver
-Capabilities {browserName: , bundleId: com.footballnation.fantasys..., databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 13.7, takesScreenshot: true, udid: 780DC199-524D-42ED-AFC7-9FD..., webStorageEnabled: false}
-Session ID: ebba3d79-8ed4-42e0-8b4f-917e50f84710]]>
+Capabilities {browserName: , bundleId: com.footballnation.fantasys..., databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 14.4, takesScreenshot: true, udid: BE3D3E17-B4CB-45F0-8A41-8D6..., webStorageEnabled: false}
+Session ID: b965447c-2d49-41bb-9b94-bc825dff741e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'Dharuns-MacBook-Pro.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
 Driver info: io.appium.java_client.ios.IOSDriver
-Capabilities {browserName: , bundleId: com.footballnation.fantasys..., databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 13.7, takesScreenshot: true, udid: 780DC199-524D-42ED-AFC7-9FD..., webStorageEnabled: false}
-Session ID: ebba3d79-8ed4-42e0-8b4f-917e50f84710
+Capabilities {browserName: , bundleId: com.footballnation.fantasys..., databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 14.4, takesScreenshot: true, udid: BE3D3E17-B4CB-45F0-8A41-8D6..., webStorageEnabled: false}
+Session ID: b965447c-2d49-41bb-9b94-bc825dff741e
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -188,11 +214,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="SKIP" signature="endReport()[pri:0, instance:com.FantasySpin.test.HowToPlayFrontScreen@5d11346a]" name="endReport" is-config="true" duration-ms="0" started-at="2021-01-13T12:42:31Z" finished-at="2021-01-13T12:42:31Z">
+        <test-method status="SKIP" signature="endReport()[pri:0, instance:com.FantasySpin.test.Login@5d11346a]" name="endReport" is-config="true" duration-ms="0" started-at="2021-02-24T11:21:13Z" finished-at="2021-02-24T11:21:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.FantasySpin.test.HowToPlayFrontScreen -->
+      </class> <!-- com.FantasySpin.test.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

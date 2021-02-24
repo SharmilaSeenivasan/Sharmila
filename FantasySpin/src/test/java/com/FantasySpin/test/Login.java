@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import com.FantasySpin.implementation.LaunchApplication;
 import com.FantasySpin.implementation.LoginPage;
+import com.FantasySpin.implementation.SpinYourLineUps;
 import com.FantasySpin.report.Base;
 
 public class Login extends Base
@@ -29,22 +30,22 @@ public class Login extends Base
 	}
 
 	
-	@Test(priority=3)
+/*	@Test(priority=3)
 	public void LoginScreen() throws Exception
 	{
 		LoginPage.login();
 	}
 
-	
+*/	
 
-/*	
+	
 	@Test(priority=4)
 	public void Spin() throws Exception
 	{
-		LoginPage.spin();
+		SpinYourLineUps.spin();
 	}
 
-	
+	/*
 	@Test(priority=44)
 	public void Verify_ValidData() throws Exception
 	{
