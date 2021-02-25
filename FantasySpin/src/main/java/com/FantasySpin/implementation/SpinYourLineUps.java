@@ -21,7 +21,7 @@ public class SpinYourLineUps extends LoginPage
 	*/	
 		rf.clickButton(driver, Object_Repository.SpinYourLineups);
 		Thread.sleep(5000);
-		rf.clickButton(driver, Object_Repository.Hockey);
+		rf.clickButton(driver, Object_Repository.BasketBall);
 		Thread.sleep(2000);
 
 	/*	MobileElement ClosePopup = driver.findElement(By.xpath("XCUIElementTypeApplication[@name=\\\"FSDev\\\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton"));
@@ -35,15 +35,15 @@ public class SpinYourLineUps extends LoginPage
 		//Thread.sleep(2000);
 
 		rf.clickButton(driver, Object_Repository.ChipTokenTourneys);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		
-		rf.clickButton(driver, Object_Repository.StandardOneK);
-		Thread.sleep(2000);
+		rf.clickButton(driver, Object_Repository.StandardFiveK);
+		Thread.sleep(3000);
 		
 		rf.clickButton(driver, Object_Repository.SpinButton);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
-		/*rf.clickButton(driver, Object_Repository.LockPlayer);
+		rf.clickButton(driver, Object_Repository.LockPlayer);
 		Thread.sleep(2000);
 
 
@@ -52,7 +52,14 @@ public class SpinYourLineUps extends LoginPage
 
 		rf.clickButton(driver, Object_Repository.LockConfirm);
 		Thread.sleep(3000);
-*/
+		
+		rf.clickButton(driver, Object_Repository.LockInLineUp);
+		Thread.sleep(3000);
+
+		rf.clickButton(driver, Object_Repository.Home);
+		Thread.sleep(3000);
+		
+
 	}
 
 

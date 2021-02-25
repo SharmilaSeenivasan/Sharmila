@@ -89,16 +89,29 @@ public class Object_Repository
 
 	
 	public static String StandardOneK = "id>FSCTstandard1K";
+	public static String StandardFiveK = "xpath>(//XCUIElementTypeButton[@name=\"FSCTstandard5K\"])";
 	
-	public static String SpinButton = "xpath>//XCUIElementTypeButton[@name=\"spinButton\"]";
+	public static String SpinButton = "id>FSspinclkbtn";
 	
 	
 	public static String PreviousScreen = "xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeButton[1]";
-	public static String LockPlayer = "xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeButton[2]";
+	public static String LockPlayer = "id>FSspinlockbtn";
 
-	public static String LockPlayerOne = "xpath>//XCUIElementTypeApplication[@name=\"FSDev\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther[7]/XCUIElementTypeScrollView/XCUIElementTypeImage[6]";
-	public static String LockConfirm = "xpath>//XCUIElementTypeButton[@name=\"-15 \"]";
+	public static String LockPlayerOne = "id>FSspinplrbox1";
+	public static String LockPlayerTwo = "id>FSspinplrbox2";
+	public static String LockPlayerThree = "id>FSspinplrbox3";
+
+	public static String LockCancel = "id>FSspincancel";
+	public static String LockConfirm = "id>FSspinlockconfirm";
+	public static String LockInLineUp = "id>FSspinlockinlineup";
 	
+	public static String EditLineUp = "id>FSLUPeditbtn";
+	public static String NBATourneys = "xpath>//XCUIElementTypeButton[@name=\"NBA TOURNEYS\"]";
+	public static String Home = "id>FSLUPhomebtn";
+	public static String SpinNewEntry = "id>FSLUPnewentrybtn";
+
+
+
 	
 //Settings
 	public static String MusicOn = "xpath>//(//XCUIElementTypeStaticText[@name=\"ON\"])[1])";
